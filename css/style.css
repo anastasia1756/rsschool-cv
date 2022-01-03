@@ -8,10 +8,32 @@ body {
   flex-direction: row-reverse;
   width: 1200px;
   background: #ffffff;
-  margin: 40px auto 0 auto;
+  margin: 0 auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
-
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-around;
+  width: 1200px;
+  background: #1e2939;
+  margin: 0 auto;
+  border-bottom: 4px solid #fb3abb;
+}
+.header-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+.header-items {
+  margin-left: 50px;
+}
+.header-link {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
 /* Main content section */
 
 .main-content-section {
